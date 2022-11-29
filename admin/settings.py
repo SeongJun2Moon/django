@@ -20,7 +20,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-k%=nu7@99p_qrhw4-wd%r(bv(0_jb^_$yo8rvt-gtdw2b4(shc"
+# SECRET_KEY = "django-insecure-k%=nu7@99p_qrhw4-wd%r(bv(0_jb^_$yo8rvt-gtdw2b4(shc"
+SECRET_KEY = "django-insecure-70h6s56iss5ad93w3%pttyprlhnvv15fka(^#=-n$jkixw-gix"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -31,6 +32,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    "movie.m_users.apps.UsersConfig",
+    "users.apps.UsersConfig",
+    "hello.apps.HelloConfig",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -75,11 +79,11 @@ WSGI_APPLICATION = "admin.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.sjmun2",
-        "NAME": "boards",
+        "ENGINE": "django.db.backends.mysql",
+        "NAME": "mydb",
         "USER": "root",
         "PASSWORD": "root",
-        "HOST": "mysql-container",
+        "HOST": "localhost",
         "PORT": "3306"
     }
 }

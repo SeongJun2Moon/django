@@ -12,7 +12,7 @@ class User(models.Model):
     point = models.IntegerField(default=0)
 
     class Meta:
-        db_table = "m_users"
+        db_table = "users"
 
     def __str__(self):
         return f"{self.pk} {self.username}"

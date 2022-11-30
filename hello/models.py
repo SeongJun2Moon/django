@@ -6,8 +6,6 @@ class Hello(models.Model):
     hello = models.CharField(primary_key=True, max_length=30)
     name = models.TextField()
 
-
-
     class Meta:
         db_table = "hellos"
 

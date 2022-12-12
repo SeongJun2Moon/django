@@ -21,6 +21,7 @@ os.environ['KMP_DUPLICATE_LIB_OK']='True'
 
 
 '''
+<참고논문> https://arxiv.org/abs/1511.06434
 Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks
 Alec Radford, Luke Metz, Soumith Chintala
 In recent years, supervised learning with convolutional networks (CNNs) has seen huge adoption in computer vision applications. 

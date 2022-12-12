@@ -17,5 +17,5 @@ from django.urls import re_path as url
 from movies.movies import views
 
 urlpatterns = [
-    url(r'face-faces', views.fake_faces)
+    url(r'fake-faces', views.fake_faces)
 ]

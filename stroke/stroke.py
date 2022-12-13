@@ -49,8 +49,8 @@ None
 '''
 
 class Stroke:
-    data_path = "C:/Users/MSJ/AIA/djangoProject/blog/data/stroke/healthcare-dataset-stroke-data.csv"
-    save = "../blog/save/stroke"
+    data_path = "C:/Users/MSJ/AIA/djangoProject/blog/data/stroke"
+    save = "C:/Users/MSJ/AIA/djangoProject/blog/save/stroke"
 
     def __init__(self):
         self.stroke = pd.read_csv(f'{self.data_path}/healthcare-dataset-stroke-data.csv')

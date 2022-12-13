@@ -65,6 +65,12 @@ model 은 var 를 잡아내서, class 를 시도한다.
 연역은 가정된 전제이다.
 귀납은 개인적 경험이다.
 
+# 인코딩(encording)
+문자 -> 코드 = 인코딩 <-> 디코딩
+종류
+
+
+
 # 편향과 편차
 https://opentutorials.org/module/3653/22071
 정답 하나를 맞추기 위해 컴퓨터는 여러 번의 예측값 내놓기를 시도하는데,
@@ -124,3 +130,15 @@ standard, normal, norm, average, level 이 있다.
 대개 기호로 라틴 대문자 S를 쓴다.
 
 ## 산술급수 와 기하급수
+
+
+##
+fit_transfrom()은
+
+## 행열 연산(Matrix Operations)
+행렬 표기법 - Matrix Notation
+
+행렬 덧셈 - Matrix Sum
+스칼라 곱 - Scalar Multiple
+행렬 곱 - Matrix Multiplication
+행렬의 전치 - The transpose of a matrix

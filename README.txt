@@ -150,3 +150,6 @@ fit_transfrom()은
 스칼라 곱 - Scalar Multiple
 행렬 곱 - Matrix Multiplication
 행렬의 전치 - The transpose of a matrix
+
+
+ㄹㅇㄴㅁㄹㄴㅇㅁ

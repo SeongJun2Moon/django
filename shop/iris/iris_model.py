@@ -5,6 +5,7 @@ from keras.layers import Dense
 from sklearn import datasets
 from sklearn.preprocessing import OneHotEncoder
 
+
 class IrisModel:
     data_path = "C:/Users/MSJ/AIA/djangoProject/shop/iris/data"
 
@@ -22,15 +23,19 @@ class IrisModel:
 
 
     def spec(self):
-        print(self.iris.feature_names)
+        print(self.iris['target_names'])
 
+        '''
+       Shape (150, 6)
+       ['Id', 'SepalLengthCm', 'SepalWidthCm', 'PetalLengthCm', 'PetalWidthCm','Species']
+       '''
 
     def create_model(self):
         x = self._x
         y = self._y
         enc = OneHotEncoder()
         y_1hot = enc.fit_transform(y.reshape(-1, 1)).toarray()
-        model = Sequential()
+        model = Sequential() #nn
         model.add(Dense(4, input_dim=4, activation='relu'))
         model.add(Dense(3, activation='softmax'))
         model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])

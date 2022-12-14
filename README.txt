@@ -1,3 +1,11 @@
+
+## 가설(hypothesis)
+p-value (확률값)
+
+기술통계 <hypothesis> 추론통계 = 학습(Learning)
+
+## ground-truth
+
 ## 대수학(algebra)
 변수는 feature 와 target 으로 나뉜다.
 상수는 계수와 편향로 나뉜다.
